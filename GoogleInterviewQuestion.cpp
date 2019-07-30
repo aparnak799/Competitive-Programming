@@ -12,7 +12,7 @@ int main() {
 	int arr[n],leave[n];
 	for(int i = 0;i<n;i++)
 	    cin>>arr[i]>>leave[i];
-	}
+	
 	sort(arr,arr+n);
 	sort(leave,leave+n);
 	for(int i=0;i<n;i++){
